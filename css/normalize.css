@@ -7,29 +7,14 @@
 /**
  * Correct `block` display not defined in IE 6/7/8/9 and Firefox 3.
  */
-
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-main,
-nav,
-section,
-summary {
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
     display: block;
 }
 
 /**
  * Correct `inline-block` display not defined in IE 6/7/8/9 and Firefox 3.
  */
-
-audio,
-canvas,
-video {
+audio, canvas, video {
     display: inline-block;
     *display: inline;
     *zoom: 1;
@@ -39,7 +24,6 @@ video {
  * Prevent modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.
  */
-
 audio:not([controls]) {
     display: none;
     height: 0;
@@ -49,7 +33,6 @@ audio:not([controls]) {
  * Address styling not present in IE 7/8/9, Firefox 3, and Safari 4.
  * Known issue: no IE 6 support.
  */
-
 [hidden] {
     display: none;
 }
@@ -64,7 +47,6 @@ audio:not([controls]) {
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
-
 html {
     font-size: 100%; /* 1 */
     -webkit-text-size-adjust: 100%; /* 2 */
@@ -75,19 +57,13 @@ html {
  * Address `font-family` inconsistency between `textarea` and other form
  * elements.
  */
-
-html,
-button,
-input,
-select,
-textarea {
+html, button, input, select, textarea {
     font-family: sans-serif;
 }
 
 /**
  * Address margins handled incorrectly in IE 6/7.
  */
-
 body {
     margin: 0;
 }
@@ -95,11 +71,13 @@ body {
 /* ==========================================================================
    Links
    ========================================================================== */
+a {
+    text-decoration: none;
+}
 
 /**
  * Address `outline` inconsistency between Chrome and other browsers.
  */
-
 a:focus {
     outline: thin dotted;
 }
@@ -107,7 +85,6 @@ a:focus {
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
  */
-
 a:active,
 a:hover {
     outline: 0;
@@ -116,7 +93,6 @@ a:hover {
 /* ==========================================================================
    Typography
    ========================================================================== */
-
 /**
  * Address font sizes and margins set differently in IE 6/7.
  * Address font sizes within `section` and `article` in Firefox 4+, Safari 5,
@@ -156,7 +132,6 @@ h6 {
 /**
  * Address styling not present in IE 7/8/9, Safari 5, and Chrome.
  */
-
 abbr[title] {
     border-bottom: 1px dotted;
 }
@@ -164,7 +139,6 @@ abbr[title] {
 /**
  * Address style set to `bolder` in Firefox 3+, Safari 4/5, and Chrome.
  */
-
 b,
 strong {
     font-weight: bold;
@@ -292,22 +266,14 @@ dl,
 menu,
 ol,
 ul {
-    margin: 1em 0;
+    margin: 0;
+    padding: 0;
 }
 
 dd {
-    margin: 0 0 0 40px;
+    margin: 00;
 }
 
-/**
- * Address paddings set differently in IE 6/7.
- */
-
-menu,
-ol,
-ul {
-    padding: 0 0 0 40px;
-}
 
 /**
  * Correct list images handled incorrectly in IE 7.
