@@ -13,7 +13,6 @@ You can get the boilerplate by:
    `git clone https://github.com/skylinedesign/Martian-Boilerplate.git`
 
 2. Download the zip from:
-
    [Martian Boilerplate Zipped](https://github.com/skylinedesign/Martian-Boilerplate/archive/master.zip)
 
 
