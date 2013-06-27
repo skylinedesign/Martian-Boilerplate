@@ -1,0 +1,69 @@
+/* ====================================================================================================
+ *
+ *
+ *
+ *                       MBMBMBM           MBMBMBMBMBMBMBMBMBM
+ *                      BMBMBMBM      BMBMBMBMBMBMBMBMBMBMBMBMBMB
+ *                      MBMBMBMB   BMBMBMBM                 MBMBMBMB
+ *                       MBMBM  BMBMBM                          BMBMBMB
+ *                            MBMBM             MBMBMBM             MBMBM
+ *                           MBMB         BMBMBMBMBMBMBMBMBM          BMBM
+ *                         BMBM         MBMBMBMBMBMBMBMBMBMBMBM         MBMB
+ *                        BMBM       MBMBMBMBMBMBMBMBMBMBMBMBMBMB        MBMB
+ *                       BMBM       MBMBMBMBMBMBMBMBMBMBMBMBMBMBMBM       MBMB
+ *                       MBM       MBMBMBMBMBMBMBMBMBMBMBMBMBMBMBMBM       MBM
+ *                      MBM       MBMBMBMBMBMBMBMBMBMBMB      MBMBMBM       MBM
+ *                      BMB      MBMBMBMBMBMBMBMBMBMBM    BM    BMBMBM      BMB
+ *                      MB       BMBMBMBMBMBMBMBMBMB    MBMB   BMBMBMB       BM
+ *                     MBM       MBMBMBMBMBMBMBMBM    BMBM     MBMBMBM       MB
+ *                      MB       BMBMBMB     BMBM    BMBMBMBMBMBMBMBMB       BM
+ *                      BMB      MBMBMBM   MBMB    MBMBMBMBMBMBMBMBMBM      BMB
+ *                      MBM       MBMBM    BM    BMBMBMBMBMBMBMBMBMBM       MBM
+ *                       MBM      BMBMBM       MBMBMBMBMBMBMBMBMBMBMB      MBM
+ *                       BMBM      BMBMBMBMBMBMBMBMBMBMBMBMBMBMBMBM       MBM
+ *                        BMBM       MBMBMBMBMBMBMBMBMBMBMBMBMBMBM        BMB
+ *                         BMBM        BMBMBMBMBMBMBMBMBMBMBMBMB    MBMBMBMB
+ *                           MBMB        MBMBMBMBMBMBMBMBMBMBM    BMBMBMBMBMBM
+ *                            MBMBM          BMBMBMBMBMBM        BMBMBMBMBMBMBM
+ *                              BMBMBMB                          MBMBMBMBMBMBMB
+ *                                 BMBMBMBM                 MBMBM8MBMBMBMBMBMBM
+ *                                    BMBMBMBMBMBMBMBMBMBMBMBMBMBM MBMBMBMBMB
+ *                                        MBMBMBMBMBMBMBMBMBM        BMBMBM
+ *
+ *
+ *
+ * ======================================================================================================
+ *
+ *                            SKYLINE DESIGN - African Skin, Martian Skills
+ *            We are not the same, I am a Martian. So approach my source code with caution
+ *                                       http://skylinedesign.co.ke
+ *
+ * ======================================================================================================
+ * ======================================================================================================
+
+
+
+ /* TEAM */
+
+      INTERFACE DESIGNER
+      David Kuria
+      Twitter: @davekushkr
+
+
+      FRONT-END DEVELOPER
+      Huston Malande
+      Twitter: @martianskills
+
+
+      BACK-END DEVELOPER
+      Brian Wangila
+      Twitter: @bwangila
+
+
+
+ * ======================================================================================================
+ *
+ *                                          SOLI DEO GLORIA
+ *
+ * ======================================================================================================
+
