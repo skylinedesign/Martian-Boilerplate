@@ -4,17 +4,16 @@ Martian boilerplate is a derivative of the [https://github.com/h5bp/html5-boiler
 
 The main objective of this project is to allow you to dive into a website design without worrying about setting up the basics. Also, it lets us have a standard way of coding such that any Martian dev can jump into any project and pick up from where the other left. Smiles all round :-)
 
-You can download the source at:
-[Martian Boilerplate](https://github.com/skylinedesign/Martian-Boilerplate)
-
 
 ## How to use it
 
 You can get the boilerplate by:
+
 1. Cloning the git repo:
    `git clone https://github.com/skylinedesign/Martian-Boilerplate.git`
 
 2. Download the zip from:
+
    [Martian Boilerplate Zipped](https://github.com/skylinedesign/Martian-Boilerplate/archive/master.zip)
 
 
