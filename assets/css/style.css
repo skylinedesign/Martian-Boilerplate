@@ -30,7 +30,8 @@
 .boxfix     { box-sizing:border-box; }
 .no-display { display:none; }
 .clear      { clear:both; }
-.wide       { width:100%; }
+.fullwidth  { width:100%; }
+.container  { width:100%; max-width: 1024px; padding: 0; margin: 0; }
 .disabled   { opacity:0.4; -webkit-filter:grayscale(1) }
 .fx-fast    { -webkit-transition:all 0.3s ease-out;
                  -moz-transition:all 0.3s ease-out;
@@ -94,242 +95,23 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "SoulLotionBold", Arial, Helvetica, sans-serif;
 }
 
+p,ul,li,a {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
 
 /* =============================================================================
    03 - LAYOUT__
    =============================================================================
  * Logo & Main Navigation
  * ---------------------------------*/
-body {
-    background: #000;
-}
 
-#wrapper {
-    width: 60%;
-    height: 100%;
-    margin: 0 auto;
-}
-#wrapper:before {
-  content: '';
-  display: inline-block;
-  height: 100%;
-  vertical-align: middle;
-  margin-right: -0.25em;
- }
+ /* =============================================================================
+   04 - PAGE SPECIFIC__
+   =============================================================================
+ * Logo & Main Navigation
+ * ---------------------------------*/
 
-#social {
-    position: relative;
-    bottom: 0;
-    width: 64%;
-    margin-top: 20px;
-    padding-top: 20px;
-    border-top: 1px solid #3e3d2b;
-}
-
-#social li {
-    width: auto;
-    display: inline-block;
-    margin-right: 30px;
-    list-style: none;
-}
-
-#social li a {
-    display: block;
-    height: 32px;
-    color: #fff;
-}
-
-#social li:first-child {
-    margin-bottom: 10px;
-}
-
-#social li:first-child a {
-    background: url("../img/facebook.png") no-repeat;
-    background-color: #797979;
-}
-
-#social li:first-child a:hover {
-    background-color: #3b5999;
-}
-
-#social li:last-child a {
-    background: url("../img/twitter.png") no-repeat;
-    background-color: #797979;
-}
-
-#social li:last-child a:hover {
-    background-color: #00bbf5;
-}
-
-#social li span {
-    display: block;
-    height: 20px;
-    margin-left: 32px;
-    padding: 6px 15px;
-    background: #a3a3a3;
-}
-
-#social li:first-child a:hover span {
-    background: #577ac5;
-}
-
-#social li:last-child a:hover span {
-    background: #0089b4;
-}
-
-
-
-
-.centered {
-    width: 100%;
-    display: inline-block;
-    vertical-align: middle;
-}
-
- #logo {
-    width: 26%;
-}
-
- #august {
-
-    width: 64%;
-    -webkit-animation: bounceInDown 1s .4s linear both;
-       -moz-animation: bounceInDown 1s .4s linear both;
-        -ms-animation: bounceInDown 1s .4s linear both;
-         -o-animation: bounceInDown 1s .4s linear both;
-            animation: bounceInDown 1s .4s linear both;
-}
- #url {
-    width: 64%;
-
-    -webkit-animation: fadeIn 8s 1.8s ease-out both;
-       -moz-animation: fadeIn 8s 1.8s ease-out both;
-        -ms-animation: fadeIn 8s 1.8s ease-out both;
-         -o-animation: fadeIn 8s 1.8s ease-out both;
-            animation: fadeIn 8s 1.8s ease-out both; }
-
- #social {
-    width: 64%;
-
-    -webkit-animation: bounceInUp 1s 5s ease-out both;
-       -moz-animation: bounceInUp 1s 5s ease-out both;
-        -ms-animation: bounceInUp 1s 5s ease-out both;
-         -o-animation: bounceInUp 1s 5s ease-out both;
-            animation: bounceInUp 1s 5s ease-out both; }
-
-/* ==========================================================================
-   Media Queries
-   ========================================================================== */
-@media only screen and (min-width: 1280px) {
-    #wrapper {
-        max-width: 900px;
-    }
-}
-
-@media only screen and (max-width: 1080px) {
-    #wrapper {
-        width: 80%;
-    }
-}
-
-@media only screen and (min-width: 540px) {
-    #logo {
-        float: left;
-        margin-right: 10%;
-        margin-top: 20px;
-    }
-    #august, #url, #social {
-        float: right;
-    }
-
-}
-
-@media only screen and (max-width: 540px) {
-    #wrapper {
-        width: 90%;
-        text-align: center;
-    }
-
-    #august, #url, #social{
-        width: 100%;
-    }
-
-    #logo {
-        margin: 0 auto 20px;
-    }
-
-    #social {
-        float: left;
-        margin-top: 15px;
-        border-top: 1px solid #3e3d2b;
-    }
-
-    #social li {
-        float: left;
-        margin-left: 25%;
-    }
-
-    #august {
-        padding-top: 25px;
-        border-top: 4px double #3e3d2b;
-    }
-
-}
-
-@-webkit-keyframes fadeIn { 0% {opacity: 0;} 100% {opacity: 1;} }
-@-moz-keyframes fadeIn { 0% {opacity: 0;} 100% {opacity: 1;} }
-@-o-keyframes fadeIn { 0% {opacity: 0;} 100% {opacity: 1;} }
-@keyframes fadeIn { 0% {opacity: 0;} 100% {opacity: 1;} }
-
-@-webkit-keyframes bounceInDown {
-    0% { opacity: 0; -webkit-transform: translateY(-2000px); }
-    60% { opacity: 1; -webkit-transform: translateY(30px); }
-    80% { -webkit-transform: translateY(-10px); }
-    100% { -webkit-transform: translateY(0); }
-}
-@-moz-keyframes bounceInDown {
-    0% { opacity: 0; -moz-transform: translateY(-2000px); }
-    60% { opacity: 1; -moz-transform: translateY(30px); }
-    80% { -moz-transform: translateY(-10px); }
-    100% { -moz-transform: translateY(0); }
-}
-@-o-keyframes bounceInDown {
-    0% { opacity: 0; -o-transform: translateY(-2000px); }
-    60% { opacity: 1; -o-transform: translateY(30px); }
-    80% { -o-transform: translateY(-10px); }
-    100% { -o-transform: translateY(0); }
-}
-@keyframes bounceInDown {
-    0% { opacity: 0; transform: translateY(-2000px); }
-    60% { opacity: 1; transform: translateY(30px); }
-    80% { transform: translateY(-10px); }
-    100% { transform: translateY(0); }
-}
-
-
-
-
-@-webkit-keyframes bounceInUp {
-    0% { opacity: 0; -webkit-transform: translateY(2000px); }
-    60% { opacity: 1; -webkit-transform: translateY(-30px); }
-    80% { -webkit-transform: translateY(10px); }
-    100% { -webkit-transform: translateY(0); }
-}
-@-moz-keyframes bounceInUp {
-    0% { opacity: 0; -moz-transform: translateY(2000px); }
-    60% { opacity: 1; -moz-transform: translateY(-30px); }
-    80% { -moz-transform: translateY(10px); }
-    100% { -moz-transform: translateY(0); }
-}
-@-o-keyframes bounceInUp {
-    0% { opacity: 0; -o-transform: translateY(2000px); }
-    60% { opacity: 1; -o-transform: translateY(-30px); }
-    80% { -o-transform: translateY(10px); }
-    100% { -o-transform: translateY(0); }
-}
-@keyframes bounceInUp {
-    0% { opacity: 0; transform: translateY(2000px); }
-    60% { opacity: 1; transform: translateY(-30px); }
-    80% { transform: translateY(10px); }
-    100% { transform: translateY(0); }
-}
